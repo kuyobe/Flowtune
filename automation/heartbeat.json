@@ -1,0 +1,26 @@
+{
+  "service_name": "Flowtune-Core",
+  "timestamp": "2024-10-27T10:30:00Z",
+  "status": "healthy",
+  "uptime_seconds": 3600,
+  "cpu_usage_percent": 15.2,
+  "memory_usage_mb": 512,
+  "disk_space_available_gb": 25.7,
+  "active_connections": 128,
+  "version": "1.2.3",
+  "build_id": "abc123xyz",
+  "dependencies": {
+    "database": {
+      "status": "healthy",
+      "response_time_ms": 12
+    },
+    "message_queue": {
+      "status": "degraded",
+      "error": "Connection timeout"
+    }
+  },
+  "custom_metrics": {
+    "processed_events_per_second": 120,
+    "average_latency_ms": 55
+  }
+}
